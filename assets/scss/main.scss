@@ -1,0 +1,29 @@
+@import 'helpers/all';
+@import 'base/all';
+@import 'modules/all';
+
+
+ul {
+	list-style: none;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	width: 800px;
+	display: inline-block;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+input	{
+	float: right;
+}
+
+input:not([type="submit"])	{
+	width: 600px;
+}
