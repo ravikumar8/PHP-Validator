@@ -1,6 +1,6 @@
 # PHP Validator #
 
-Validator class to validate form post values in a simple way.
+Validator class to validate form post values in a simple way. 
 
 ### Usage ###
 
@@ -86,6 +86,8 @@ if(!empty($_POST))  {
  * __numeric__: Returns FALSE if the form element contains anything other than numeric characters.
  * __matches__: Returns FALSE if the form element does not match the one in the parameter. matches[form_item] 
  * __unique__: Returns FALSE if the form element is not unique to the table and field name in the parameter. unique[field]
+
+Based on [Alex Garrett](https://twitter.com/@alexgarrett) work http://bit.ly/1oO8Yxn
 
 ### License ###
 
